@@ -1,0 +1,165 @@
+body{
+    background-color: #abbacc;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: #abbacc;
+    height: 100px;
+    width: 350px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 10%;
+}
+.container2{
+    background-color: #abbacc;
+    height: 300px;
+    width: 200px;
+    position: absolute;
+    margin: auto;
+    top: 150;
+    bottom: 80;
+    left: 0;
+    right: 0;
+    border-radius: 10%;
+} 
+.bat2{
+    background-color: wheat;
+    width: 160px;
+    height: 120px;
+    border-radius: 50%;
+    position: relative;
+    top: 170px;
+    left: 80px;
+    animation: play 1.5s infinite;
+    transform-origin: right;
+}
+@keyframes play
+{
+    50%{
+       transform: 
+        rotate(-30deg);
+    }
+
+    
+}
+.handle2{
+    height: 20px;
+    width: 0;
+    border-left: 120px solid wheat;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+position: relative;
+top: 100px;
+border-radius: 10%;
+left: 70px;
+transform: rotateY(180deg) 
+           rotate(-55deg)
+           
+           
+}
+.inner2{
+    height: 13px;
+    width: 0;
+    border-left: 120px solid wheat;
+    border-bottom: 15px solid transparent;
+    border-top: 15px solid transparent;
+position: relative;
+bottom: 14px;
+right: 115px;
+}
+.face2{
+    background-color: navy;
+    height: 117px;
+    width: 160px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 50px;
+}
+.ball2{
+    background-color: white;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 115px;
+    left: 150px;
+    animation: bounce 1.5s infinite;
+}
+@keyframes bounce
+{
+50% {
+    transform:translateY(230px);
+}
+}
+.bat{
+    background-color: wheat;
+    width: 160px;
+    height: 120px;
+    border-radius: 50%;
+    position: relative;
+    top: 170px;
+    left: 80px;
+    animation: play 1.5s infinite;
+    transform-origin: right;
+}
+@keyframes play
+{
+    50%{
+       transform: 
+        rotate(-30deg);
+    }
+}
+.handle{
+    height: 20px;
+    width: 0;
+    border-left: 120px solid wheat;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+position: relative;
+top: 100px;
+border-radius: 10%;
+left: 70px;
+transform: rotateY(180deg) 
+           rotate(-55deg)
+           
+           
+}
+.inner{
+    height: 13px;
+    width: 0;
+    border-left: 120px solid wheat;
+    border-bottom: 15px solid transparent;
+    border-top: 15px solid transparent;
+position: relative;
+bottom: 14px;
+right: 115px;
+}
+.face{
+    background-color: #f2354c;
+    height: 117px;
+    width: 160px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 50px;
+}
+.ball{
+    background-color: white;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 115px;
+    left: 150px;
+    animation: bounce 1.5s infinite;
+}
+@keyframes bounce
+{
+50% {
+    transform:translateY(230px);
+}
+}
